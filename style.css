@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* body font-family: 'Open Sans', sans-serif; */
+/* headings font-family: 'Poppins', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 2rem;
+}
+
+.top button {
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    border-radius: 25px;
+    width: 8rem;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 400; */
+    background-color: transparent;
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.top button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.top img {
+    width: 100%;
+}
+
+.t {
+    width: 13rem;
+}
+
+/* ------------------ */
+@media (max-width: 375px) {
+    main {
+        padding: 1rem 0.5rem;
+    }
+
+    .top {
+
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+    }
+
+    .top img {
+        width: 10rem;
+    }
+
+    .top button {
+
+        font-size: 12px;
+    }
+
+    .t {
+        margin-right: 2rem;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+h1 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mid p {
+    font-family: 'Open Sans', sans-serif;
+    width: 38%;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.mid button {
+    padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+    border-radius: 25px;
+    width: 12rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-color: transparent;
+    margin-top: 1.5rem;
+}
+
+.mid button:hover {
+    cursor: pointer;
+    /* opacity: 0.4; */
+    background-color: hsl(321, 100%, 78%);
+}
+
+.mid img {
+    width: 60%;
+    margin-top: 3rem;
+}
+
+.mid {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+/* ----------------------------------------------------------------------- */
+@media (max-width: 375px) {
+    .mid p {
+        width: 95%;
+    }
+
+    .mid img {
+        width: 80%;
+    }
+
+    .mid {
+        margin-top: 4rem;
+    }
+}
+
+/* ------------------------------------------------------------------------- */
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.ppl {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10%;
+
+}
+
+.no {
+    font-weight: 700;
+    font-size: larger;
+    font-size: 450%;
+}
+
+.des {
+    color: grey;
+}
+
+.num img {
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+
+/* ----------------------------------------------------------------- */
+@media (max-width: 375px) {
+    .num {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------ */
+.grow {
+    display: flex;
+
+}
+
+.grow img {
+    width: 100%;
+}
+
+.de {
+    display: flex;
+    flex-direction: column;
+    padding: 15% 13% 15% 5%;
+}
+
+.de p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
+}
+
+/* ------------------------ */
+@media (max-width: 375px) {
+    .grow {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .grow img {
+        width: 85%;
+
+    }
+
+    .m {
+        display: grid;
+        place-items: center;
+    }
+}
+
+/* --------- */
+.flow {
+    display: flex;
+}
+
+.flow img {
+    width: 100%;
+}
+
+.flow .de {
+    padding: 15% 12% 15% 5%;
+}
+
+/* ------------- */
+@media (max-width: 375px) {
+    .flow {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .flow img {
+        width: 85%;
+
+    }
+
+
+}
+
+/* ------------ */
+@media (max-width: 375px) {
+    .num {
+        margin: 15% 0;
+    }
+
+}
+
+/* ---------------------------- */
+.com {
+    display: grid;
+    place-items: center;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.com button {
+    padding: 0.8rem 0.3rem 0.8rem 0.3rem;
+    border-radius: 25px;
+    width: 12rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-color: transparent;
+    margin-top: 1.5rem;
+}
+
+.com button:hover {
+    cursor: pointer;
+    /* opacity: 0.4; */
+    background-color: hsl(321, 100%, 78%);
+}
+
+/* ---------------------------------------------------------------- */
+section {
+    background-color: brown;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: flex-end; */
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 10%;
+}
+
+.con {
+    display: flex;
+    margin-top: 4%;
+}
+
+.con img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2.5%;
+}
+
+.icon {
+    display: flex;
+    margin-top: 10%;
+}
+
+.icon svg {
+    width: 2rem;
+    height: auto;
+    margin-right: 5%;
+
+}
+
+.icon svg:hover {
+    cursor: pointer;
+    background-color: hsl(221, 100%, 50%);
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+form {
+    margin-top: 5%;
+}
+
+#email {
+    border-radius: 5px;
+    width: 10rem;
+    padding: 0.7rem 0.5rem;
+    border: transparent;
+    margin-right: 3%;
+}
+
+#button {
+    border-radius: 5px;
+    width: 6rem;
+    padding: 0.7rem 0.5rem;
+    border: transparent;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
+
+#button:hover {
+    cursor: pointer;
+    /* opacity: 0.4; */
+    background-color: hsl(321, 100%, 78%);
+}
+
+.left {
+    margin: 5% 0 10% 5%;
+}
+
+.le {
+    width: 75%;
+}
+
+.right {
+    margin: 6.5% 0 0 25%;
+}
+
+.re {
+    width: 75%;
+    margin-top: 2.5%;
+}
+
+/* --------------------------------------------- */
+@media (max-width: 375px) {
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .right {
+        margin: 15% 0 5% 5%;
+    }
+
+    .re {
+        width: 95%;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email {
+        width: 90%;
+    }
+
+    #button {
+        margin-top: 3%;
+        margin-left: 62%;
+    }
+
+}
